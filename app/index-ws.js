@@ -4,6 +4,7 @@ const server = require("http").createServer();
 const app = express();
 
 app.get("/",function (req,res){
+    console.log("Here")
     res.sendFile("index.html",{root: __dirname});
 });
 
