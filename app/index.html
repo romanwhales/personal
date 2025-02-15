@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Olawale Adedeji</title>
 </head>
 <body>
-    <script>
-        let ws;
-        const proto = window.location.protocol === "https:" ? "wss":"ws";
-        // const socket = new WebSocket("ws://localhost:3000/");
-        ws = new WebSocket(`${proto}://${window.location.host}`)
-
-        ws.onmessage = (event) => {
-            console.log(event.data)
-        }
-
-    </script>
+    <div >
+        <div style="display: flex;justify-content: center;">
+            <img src="images/pic1.jpg" style="object-fit: cover;border-radius: 50%;width:150px;height: 150px;"/>
+        </div>
+        <div>
+            <h1>About Me</h1>
+            <ul>
+                <ol>
+                    <li>I'm married to a lovely, entrepreneurial wife and a father to two wonderful kids FA & FI</li>
+                    <li>I ❤️ Javascript and all its quirks </li>
+                    <li>My <a href="https://www.linkedin.com/in/olawale-sunmonu-a-49257b87/" target="_blank">Linkedin</a></li>
+                    <li>You can checkout my <a href="resume/Adedeji-resume.pdf" target="_blank">resume</a> here</li>
+                </ol>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
